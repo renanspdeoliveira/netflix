@@ -1,0 +1,109 @@
+body,
+html {
+    background-image: url(assets/background.jpg);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-header {
+    display: flex;
+    justify-content: center;
+    background: black;
+
+
+}
+
+.img-header {
+    width: 15%;
+}
+
+.square {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 340px;
+    background-color: #0000008f;
+    border-radius: 10PX;
+    border: 1px solid rgb(119, 119, 119);
+}
+
+.square h1 {
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.square input {
+    margin: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button-login {
+     display: flex;
+     justify-content: center;
+    
+}
+
+.button-login button {
+    background: red;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .img-header {
+        width: 30%; /* Aumenta a largura da imagem do cabeçalho em telas menores */
+    }
+
+    .square {
+        width: 80%; /* Faz o quadrado ocupar 80% da largura da tela */
+        height: auto; /* Permite que a altura se ajuste ao conteúdo */
+        padding: 20px; /* Adiciona algum padding para espaçamento */
+    }
+
+    .square h1 {
+        font-size: 24px; /* Reduz o tamanho da fonte do título */
+    }
+
+    .square input {
+        font-size: 24px; /* Reduz o tamanho da fonte dos inputs */
+    }
+
+    .button-login button {
+        font-size: 24px; /* Reduz o tamanho do botão */
+        padding: 8px; /* Ajusta o padding do botão */
+    }
+}
+
+@media (max-width: 480px) {
+    .img-header {
+        width: 50%; /* Aumenta mais a largura da imagem em telas muito pequenas */
+    }
+
+    .square {
+        width: 90%; /* Faz o quadrado ocupar 90% da largura da tela */
+    }
+
+    .square h1 {
+        font-size: 20px; /* Ajusta o tamanho da fonte para o título em telas pequenas */
+    }
+
+    .square input {
+        font-size: 20px; /* Ajusta o tamanho da fonte dos inputs para telas pequenas */
+    }
+
+    .button-login button {
+        font-size: 20px; /* Ajusta o tamanho do botão para telas pequenas */
+    }
+}

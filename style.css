@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background: black;
+    --fonte-principal: "Roboto", serif;
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    padding: 20px;
+    display: flex;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 86%;
+
+}
+
+.login-btn {
+    color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    font: 30px;
+    padding: 5px;
+    background: white;
+}
+
+
+.img-cabecalho {
+
+    width: 10%;
+}
+
+
+.input-email {
+    display: flex;
+    justify-content: center;
+
+}
+
+.input-email-text {
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+}
+
+.btn-go {
+    background: red;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.planos {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+
+
+
+}
+
+.video-banner-inicio {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+
+
+
+.sobreposto {
+
+    margin-top: 15%;
+    width: 50%;
+    height: 100px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    position: absolute;
+    /* posição absoluta para sobrepor */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.subtitulo {
+    background: #252525;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 80px;
+    padding: 30px;
+
+}
+
+.carossel {
+    width: 100%;
+    font-family: var(--fonte-principal);
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.carrosel-img {
+    border: 1px solid white;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.carrosel-img:hover {
+    transform: scale(1.05);
+}
+
+.titulo-slider {
+    color: white;
+    padding: 30px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container-sliders-p {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+
+}
+
+.container-sliders {
+    padding: 40px;
+    border-radius: 12px;
+    background: #252525;
+}
+
+.container-sliders h1 {
+    font-size: 20px;
+    color: white;
+    font-family: var(--fonte-principal);
+}
+
+
+.container {
+
+    padding: 30px;
+
+}
+
+.movies-grid {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
+    gap: 50px;
+}
+
+.movie-card {
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 1px solid white;
+}
+
+.movie-card img {
+    width: 100%;
+
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-title {
+    padding: 80px;
+    font-size: 1em;
+}
+
+
+
+/*fffffffffffffffd sa*/
+
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+#result img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+#result h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+#result p {
+    font-size: 1em;
+    color: #555;
+}
+
+#load-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#load-button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.socials {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.socials a:hover {
+    color: #ddd;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #bbb;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login</title>
+    <link rel="stylesheet" href="style-link.css">
+</head>
+
+<body>
+
+    <header class="logo-header">
+        <img src="logo.png" class="img-header">
+    </header>
+
+
+    <div class="square">
+        <div>
+            <br>
+            <h1>LOGIN:</h1>
+
+            <!-- Campo de entrada para o e-mail -->
+            <input type="email" id="email" placeholder="E-mail">
+            <br>
+            <!-- Campo de entrada para a senha -->
+            <input type="password" id="password" placeholder="Senha">
+            <div class="button-login">
+                <!-- Botão de login -->
+                <button onclick="login()">Logar</button>
+            </div>
+        </div>
+    </div>
+ 
+      
+    <script type="module" src="firebase-config.js"></script>
+    <script type="module" src="login.js"></script>
+   
+
+</body>
+
+</html>
